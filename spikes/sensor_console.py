@@ -1,5 +1,5 @@
 import Tkinter
-import widgets
+#import widgets
 import math
 
 # Globals!
