@@ -22,9 +22,13 @@ TaskHandle = uInt32
 
 # the constants
 DAQmx_Val_Cfg_Default = int32(-1)
+DAQmx_Val_RSE = int32(10083)
+DAQmx_Val_Diff = int32(10106)
 DAQmx_Val_Volts = 10348
 DAQmx_Val_Rising = 10280
 DAQmx_Val_FiniteSamps = 10178
+DAQmx_Val_ContSamps = 10123
+DAQmx_Val_HWTimedSinglePoint = 12522
 DAQmx_Val_GroupByChannel = 0
 ##############################
 
@@ -38,28 +42,49 @@ def CHK(err):
 
 # initialize variables
 taskHandle = TaskHandle(0)
-max_num_samples = 1000
+max_num_samples = 2
 data = numpy.zeros((max_num_samples,),dtype=numpy.float64)
 
-# now, on with the program
-CHK(nidaq.DAQmxCreateTask("",ctypes.byref(taskHandle)))
-CHK(nidaq.DAQmxCreateAIVoltageChan(taskHandle,"Dev1/ai0","",
-                                   DAQmx_Val_Cfg_Default,
-                                   float64(-10.0),float64(10.0),
-                                   DAQmx_Val_Volts,None))
-CHK(nidaq.DAQmxCfgSampClkTiming(taskHandle,"",float64(10000.0),
-                                DAQmx_Val_Rising,DAQmx_Val_FiniteSamps,
-                                uInt64(max_num_samples)));
+# Channel 0
+CHK(nidaq.DAQmxCreateTask("",
+	ctypes.byref(taskHandle))
+	)
+
+CHK(nidaq.DAQmxCreateAIVoltageChan(taskHandle,
+				"Dev1/ai8, Dev1/ai0",
+				"",   
+				DAQmx_Val_Cfg_Default,
+                                float64(-10.0),float64(10.0),
+                                DAQmx_Val_Volts,None))
+
+#CHK(nidaq.DAQmxCfgSampClkTiming(taskHandle, # taskHandle
+#				"", # source
+#				float64(40.0), # rate
+#                                DAQmx_Val_Rising, # activeEdge
+#				DAQmx_Val_FiniteSamps, # sampleMode
+#                                uInt64(2) # sampsPerChanToAcquire
+#				)
+#				)
 CHK(nidaq.DAQmxStartTask(taskHandle))
-read = int32()
-CHK(nidaq.DAQmxReadAnalogF64(taskHandle,max_num_samples,float64(10.0),
-                             DAQmx_Val_GroupByChannel,data.ctypes.data,
-                             max_num_samples,ctypes.byref(read),None))
-print "Acquired %d points"%(read.value)
 
-if taskHandle.value != 0:
-    nidaq.DAQmxStopTask(taskHandle)
-    nidaq.DAQmxClearTask(taskHandle)
+def read_daq():
+	read = int32()
+	CHK(nidaq.DAQmxReadAnalogF64(taskHandle, # taskHandle
+				1, # numSampsPerChan
+				float64(10.0), # timeout
+                             	DAQmx_Val_GroupByChannel, # fillMode
+				data.ctypes.data, # readArray
+				2, # arraySizeInSamps
+				ctypes.byref(read), # sampsPerChanRead
+				None) # reserved
+				)
+	#print "Acquired %d points"%(read.value)
+	#print data
+	return data
 
-print "End of program, press Enter key to quit"
-raw_input()
+#if taskHandle.value != 0:
+#    nidaq.DAQmxStopTask(taskHandle)
+#    nidaq.DAQmxClearTask(taskHandle)
+
+#print "End of program, press Enter key to quit"
+#raw_input()
