@@ -6,7 +6,7 @@ import daq
 # Globals!
 WIDTH = 800
 HEIGHT = 600
-
+dist_buff = [0, 0]
 class DistanceMeter(Tkinter.Canvas):
 	def __init__(self, root):
 		self._distance = 0.0
@@ -37,13 +37,13 @@ class DistanceMeter(Tkinter.Canvas):
 		self._canvas.after(10, self.update_distance_callback)
 
 		r = daq.read_daq()
-
-		#print r[0]
-		#print r[0]/2.54
-		#print (r[0]/2.54)*6.45
-		#print "---"
-
-		self._distance = (r[0]/2.54)*6.45
+		
+		r[0] = r[0]/2.54*6.45
+		
+		dist_buff[1] = dist_buff[0]
+		dist_buff[0] = r[0]
+		
+		self._distance = (dist_buff[0] + dist_buff[1])/2
 
 
 if __name__ == '__main__':
