@@ -21,7 +21,7 @@ class DistanceMeter(Tkinter.Canvas):
 		self._lasttime = time.time()
 		self._lastextent = 45.0
 		self._direction = 0
-		
+		self._offset = 2.3
 		# Tkinter setup
 		self._canvas = Tkinter.Canvas(root, width=WIDTH, height=HEIGHT)
 		self._canvas.pack()
@@ -32,7 +32,7 @@ class DistanceMeter(Tkinter.Canvas):
 		self._rect_labelgyroV = self._canvas.create_text(300, HEIGHT-10, text="blah")
 		self._rect_labelgyroA = self._canvas.create_text(300, HEIGHT-30, text="blah")
 		
-		f.write("Time\Gyro OUT\n")
+		f.write("Time\tGyro\tDerivative\tSum\n")
 		self.update_canvas_callback()
 
 		self.update_distance_callback()
@@ -64,14 +64,15 @@ class DistanceMeter(Tkinter.Canvas):
 		
 		
 	def update_angle_callback(self):
-		self._canvas.after(20, self.update_angle_callback)
+		self._canvas.after(15, self.update_angle_callback)
 		
 		r = daq.read_daq()
 		self._gyroV = r[1]
 		
 		gyro_buff[2] = gyro_buff[1]
 		gyro_buff[1] = gyro_buff[0]
-		gyro_buff[0] = (r[1] - 1.48) * 10
+		gyro_buff[0] = (r[1] - 2.39) * 10
+		#gyro_buff[0] = (r[1] - self._offset) * 10
 		self._gyroavg = (gyro_buff[0] + gyro_buff[1] + gyro_buff[2]) / 3
 		timenow = time.time()
 		
@@ -81,19 +82,23 @@ class DistanceMeter(Tkinter.Canvas):
 		#Positive = Moving Right
 		dir = gyro_buff[0] - gyro_buff[1]
 		
-		if dir < -2 and self._direction == 1:
+		if dir < -0.5 and self._direction == 1:
 			self._direction = 0
-			self._gyroA = abs(self._gyroA)/2 + 2
+			#self._gyroA = abs(self._gyroA)/2
 		
-		if dir > 2 and self._direction == 0:
+		if dir > 0.5 and self._direction == 0:
 			self._direction = 1
-			self._gyroA = abs(self._gyroA)/-2 - 2	
+			#self._gyroA = abs(self._gyroA)/-2	
 			#self._gyroA = 0
 		
-		self._canvas.itemconfig(self._arc, start=self._gyroA*10+90)
+		#if gyro_buff[1] - gyro_buff[0] < 0.005 and gyro_buff[1] - gyro_buff[0] > -0.005:
+			#self._gyroA = 0
+			#if self._gyroV > 2.2 and self._gyroV < 2.4:
+			#	self._offset = self._gyroV
 		
-		f.write("%f\t%f\t%f\t%f\n" % (timenow, gyro_buff[0], self._gyroavg, self._gyroA*10))
+		self._canvas.itemconfig(self._arc, start=-self._gyroA*10+90)
 		
+		#f.write("%f\t%f\t%f\t%f\n" % (timenow, gyro_buff[0], gyro_buff[1] - gyro_buff[0], self._gyroA))
 		
 
 if __name__ == '__main__':
