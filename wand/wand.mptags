@@ -1,0 +1,225 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADCResult	C:\MCC18\h\adc.h	192;"	u	line:192
+ADC_0ANA::0b11111111	C:\MCC18\h\adc.h	139;"	d	line:139
+ADC_0ANA::0b1111111111111111	C:\MCC18\h\adc.h	119;"	d	line:119
+ADC_0ANA_0REF::0b11110111	C:\MCC18\h\adc.h	87;"	d	line:87
+ADC_0_TAD::0b11110001	C:\MCC18\h\adc.h	63;"	d	line:63
+ADC_10ANA::0b11110101	C:\MCC18\h\adc.h	149;"	d	line:149
+ADC_10ANA::0b1111110000000000	C:\MCC18\h\adc.h	129;"	d	line:129
+ADC_11ANA::0b11110100	C:\MCC18\h\adc.h	150;"	d	line:150
+ADC_11ANA::0b1111100000000000	C:\MCC18\h\adc.h	130;"	d	line:130
+ADC_12ANA::0b1111000000000000	C:\MCC18\h\adc.h	131;"	d	line:131
+ADC_12ANA::0b11110011	C:\MCC18\h\adc.h	151;"	d	line:151
+ADC_12_TAD::0b11111011	C:\MCC18\h\adc.h	68;"	d	line:68
+ADC_13ANA::0b1110000000000000	C:\MCC18\h\adc.h	132;"	d	line:132
+ADC_13ANA::0b11110010	C:\MCC18\h\adc.h	152;"	d	line:152
+ADC_14ANA::0b1100000000000000	C:\MCC18\h\adc.h	133;"	d	line:133
+ADC_14ANA::0b11110001	C:\MCC18\h\adc.h	153;"	d	line:153
+ADC_16ANA::0b0000000000000000	C:\MCC18\h\adc.h	134;"	d	line:134
+ADC_16ANA::0b11110000	C:\MCC18\h\adc.h	154;"	d	line:154
+ADC_16_TAD::0b11111101	C:\MCC18\h\adc.h	69;"	d	line:69
+ADC_1ANA::0b11111110	C:\MCC18\h\adc.h	140;"	d	line:140
+ADC_1ANA::0b1111111111111110	C:\MCC18\h\adc.h	120;"	d	line:120
+ADC_1ANA_0REF::0b11111110	C:\MCC18\h\adc.h	94;"	d	line:94
+ADC_1ANA_2REF::0b11111111	C:\MCC18\h\adc.h	95;"	d	line:95
+ADC_20_TAD::0b11111111	C:\MCC18\h\adc.h	70;"	d	line:70
+ADC_2ANA::0b11111101	C:\MCC18\h\adc.h	141;"	d	line:141
+ADC_2ANA::0b1111111111111100	C:\MCC18\h\adc.h	121;"	d	line:121
+ADC_2ANA_1REF::0b11110101	C:\MCC18\h\adc.h	86;"	d	line:86
+ADC_2ANA_2REF::0b11111101	C:\MCC18\h\adc.h	93;"	d	line:93
+ADC_2_TAD::0b11110011	C:\MCC18\h\adc.h	64;"	d	line:64
+ADC_3ANA::0b11111100	C:\MCC18\h\adc.h	142;"	d	line:142
+ADC_3ANA::0b1111111111111000	C:\MCC18\h\adc.h	122;"	d	line:122
+ADC_3ANA_0REF::0b11110100	C:\MCC18\h\adc.h	85;"	d	line:85
+ADC_3ANA_2REF::0b11111100	C:\MCC18\h\adc.h	92;"	d	line:92
+ADC_4ANA::0b11111011	C:\MCC18\h\adc.h	143;"	d	line:143
+ADC_4ANA::0b1111111111110000	C:\MCC18\h\adc.h	123;"	d	line:123
+ADC_4ANA_1REF::0b11110011	C:\MCC18\h\adc.h	84;"	d	line:84
+ADC_4ANA_2REF::0b11111011	C:\MCC18\h\adc.h	91;"	d	line:91
+ADC_4_TAD::0b11110101	C:\MCC18\h\adc.h	65;"	d	line:65
+ADC_5ANA::0b11111010	C:\MCC18\h\adc.h	144;"	d	line:144
+ADC_5ANA::0b1111111111100000	C:\MCC18\h\adc.h	124;"	d	line:124
+ADC_5ANA_0REF::0b11110010	C:\MCC18\h\adc.h	83;"	d	line:83
+ADC_5ANA_1REF::0b11111010	C:\MCC18\h\adc.h	90;"	d	line:90
+ADC_6ANA::0b11111001	C:\MCC18\h\adc.h	145;"	d	line:145
+ADC_6ANA::0b1111111111000000	C:\MCC18\h\adc.h	125;"	d	line:125
+ADC_6ANA_0REF::0b11111001	C:\MCC18\h\adc.h	89;"	d	line:89
+ADC_6ANA_2REF::0b11111000	C:\MCC18\h\adc.h	88;"	d	line:88
+ADC_6_TAD::0b11110111	C:\MCC18\h\adc.h	66;"	d	line:66
+ADC_7ANA::0b11111000	C:\MCC18\h\adc.h	146;"	d	line:146
+ADC_7ANA::0b1111111110000000	C:\MCC18\h\adc.h	126;"	d	line:126
+ADC_7ANA_1REF::0b11110001	C:\MCC18\h\adc.h	82;"	d	line:82
+ADC_8ANA::0b11110111	C:\MCC18\h\adc.h	147;"	d	line:147
+ADC_8ANA::0b1111111100000000	C:\MCC18\h\adc.h	127;"	d	line:127
+ADC_8ANA_0REF::0b11110000	C:\MCC18\h\adc.h	80;"	d	line:80
+ADC_8_TAD::0b11111001	C:\MCC18\h\adc.h	67;"	d	line:67
+ADC_9ANA::0b11110110	C:\MCC18\h\adc.h	148;"	d	line:148
+ADC_9ANA::0b1111111000000000	C:\MCC18\h\adc.h	128;"	d	line:128
+ADC_CH0::0b10000111	C:\MCC18\h\adc.h	166;"	d	line:166
+ADC_CH10::0b11010111	C:\MCC18\h\adc.h	178;"	d	line:178
+ADC_CH11::0b11011111	C:\MCC18\h\adc.h	179;"	d	line:179
+ADC_CH12::0b11100111	C:\MCC18\h\adc.h	180;"	d	line:180
+ADC_CH13::0b11101111	C:\MCC18\h\adc.h	184;"	d	line:184
+ADC_CH14::0b11110111	C:\MCC18\h\adc.h	185;"	d	line:185
+ADC_CH15::0b11111111	C:\MCC18\h\adc.h	186;"	d	line:186
+ADC_CH1::0b10001111	C:\MCC18\h\adc.h	167;"	d	line:167
+ADC_CH2::0b10010111	C:\MCC18\h\adc.h	168;"	d	line:168
+ADC_CH3::0b10011111	C:\MCC18\h\adc.h	169;"	d	line:169
+ADC_CH4::0b10100111	C:\MCC18\h\adc.h	170;"	d	line:170
+ADC_CH5::0b10101111	C:\MCC18\h\adc.h	171;"	d	line:171
+ADC_CH6::0b10110111	C:\MCC18\h\adc.h	172;"	d	line:172
+ADC_CH7::0b10111111	C:\MCC18\h\adc.h	173;"	d	line:173
+ADC_CH8::0b11000111	C:\MCC18\h\adc.h	174;"	d	line:174
+ADC_CH9::0b11001111	C:\MCC18\h\adc.h	175;"	d	line:175
+ADC_CHAN0::0b1111111111111110	C:\MCC18\h\adc.h	100;"	d	line:100
+ADC_CHAN10::0b1111101111111111	C:\MCC18\h\adc.h	110;"	d	line:110
+ADC_CHAN11::0b1111011111111111	C:\MCC18\h\adc.h	111;"	d	line:111
+ADC_CHAN12::0b1110111111111111	C:\MCC18\h\adc.h	112;"	d	line:112
+ADC_CHAN13::0b1101111111111111	C:\MCC18\h\adc.h	113;"	d	line:113
+ADC_CHAN14::0b1011111111111111	C:\MCC18\h\adc.h	114;"	d	line:114
+ADC_CHAN15::0b0111111111111111	C:\MCC18\h\adc.h	115;"	d	line:115
+ADC_CHAN1::0b1111111111111101	C:\MCC18\h\adc.h	101;"	d	line:101
+ADC_CHAN2::0b1111111111111011	C:\MCC18\h\adc.h	102;"	d	line:102
+ADC_CHAN3::0b1111111111110111	C:\MCC18\h\adc.h	103;"	d	line:103
+ADC_CHAN4::0b1111111111101111	C:\MCC18\h\adc.h	104;"	d	line:104
+ADC_CHAN5::0b1111111111011111	C:\MCC18\h\adc.h	105;"	d	line:105
+ADC_CHAN6::0b1111111110111111	C:\MCC18\h\adc.h	106;"	d	line:106
+ADC_CHAN7::0b1111111101111111	C:\MCC18\h\adc.h	107;"	d	line:107
+ADC_CHAN8::0b1111111011111111	C:\MCC18\h\adc.h	108;"	d	line:108
+ADC_CHAN9::0b1111110111111111	C:\MCC18\h\adc.h	109;"	d	line:109
+ADC_FOSC_16::0b11011111	C:\MCC18\h\adc.h	52;"	d	line:52
+ADC_FOSC_2::0b10001111	C:\MCC18\h\adc.h	49;"	d	line:49
+ADC_FOSC_32::0b10101111	C:\MCC18\h\adc.h	53;"	d	line:53
+ADC_FOSC_4::0b11001111	C:\MCC18\h\adc.h	50;"	d	line:50
+ADC_FOSC_64::0b11101111	C:\MCC18\h\adc.h	54;"	d	line:54
+ADC_FOSC_8::0b10011111	C:\MCC18\h\adc.h	51;"	d	line:51
+ADC_FOSC_RC::0b11111111	C:\MCC18\h\adc.h	55;"	d	line:55
+ADC_INTERFACE_NEW	C:\MCC18\h\adc.h	35;"	d	line:35
+ADC_INTERFACE_OLD	C:\MCC18\h\adc.h	28;"	d	line:28
+ADC_INT_OFF::0b01111111	C:\MCC18\h\adc.h	46;"	d	line:46
+ADC_INT_ON::0b11111111	C:\MCC18\h\adc.h	45;"	d	line:45
+ADC_LEFT_JUST::0b01111111	C:\MCC18\h\adc.h	75;"	d	line:75
+ADC_RIGHT_JUST::0b11111111	C:\MCC18\h\adc.h	74;"	d	line:74
+ADC_VREFMINUS_EXT::0b11111111	C:\MCC18\h\adc.h	162;"	d	line:162
+ADC_VREFMINUS_VSS::0b11111101	C:\MCC18\h\adc.h	161;"	d	line:161
+ADC_VREFPLUS_EXT::0b11111111	C:\MCC18\h\adc.h	160;"	d	line:160
+ADC_VREFPLUS_VDD::0b11111110	C:\MCC18\h\adc.h	159;"	d	line:159
+BAUD_16_BIT_RATE::0b11111111	C:\MCC18\h\usart.h	127;"	d	line:127
+BAUD_8_BIT_RATE::0b11110111	C:\MCC18\h\usart.h	128;"	d	line:128
+BAUD_AUTO_OFF::0b11111110	C:\MCC18\h\usart.h	134;"	d	line:134
+BAUD_AUTO_ON::0b11111111	C:\MCC18\h\usart.h	133;"	d	line:133
+BAUD_IDLE_CLK_HIGH::0b11111111	C:\MCC18\h\usart.h	124;"	d	line:124
+BAUD_IDLE_CLK_LOW::0b11101111	C:\MCC18\h\usart.h	125;"	d	line:125
+BAUD_IDLE_RX_PIN_STATE_HIGH::0b11011111	C:\MCC18\h\usart.h	118;"	d	line:118
+BAUD_IDLE_RX_PIN_STATE_LOW::0b11111111	C:\MCC18\h\usart.h	119;"	d	line:119
+BAUD_IDLE_TX_PIN_STATE_HIGH::0b11101111	C:\MCC18\h\usart.h	121;"	d	line:121
+BAUD_IDLE_TX_PIN_STATE_LOW::0b11111111	C:\MCC18\h\usart.h	122;"	d	line:122
+BAUD_WAKEUP_OFF::0b11111101	C:\MCC18\h\usart.h	131;"	d	line:131
+BAUD_WAKEUP_ON::0b11111111	C:\MCC18\h\usart.h	130;"	d	line:130
+Busy1USART::()(!TXSTA1bits.TRMT)	C:\MCC18\h\usart.h	199;"	d	line:199
+Busy2USART::()(!TXSTA2bits.TRMT)	C:\MCC18\h\usart.h	245;"	d	line:245
+BusyADC	C:\MCC18\h\adc.h	264;"	p	line:264	signature:(void)
+BusyUSART::()(!TXSTAbits.TRMT)	C:\MCC18\h\usart.h	288;"	d	line:288
+Close1USART::()RCSTA1&=0b01001111,TXSTA1bit	C:\MCC18\h\usart.h	198;"	d	line:198
+Close2USART::()RCSTA2&=0b01001111,TXSTA2bit	C:\MCC18\h\usart.h	244;"	d	line:244
+CloseADC	C:\MCC18\h\adc.h	259;"	p	line:259	signature:(void)
+CloseUSART::()RCSTA&=0b01001111,TXSTAbits.	C:\MCC18\h\usart.h	287;"	d	line:287
+ConvertADC	C:\MCC18\h\adc.h	244;"	p	line:244	signature:(void)
+DataRdy1USART::()(PIR1bits.RC1IF)	C:\MCC18\h\usart.h	189;"	d	line:189
+DataRdy1USART::()(PIR1bits.RCIF)	C:\MCC18\h\usart.h	187;"	d	line:187
+DataRdy2USART::()(PIR3bits.RC2IF)	C:\MCC18\h\usart.h	236;"	d	line:236
+DataRdyUSART::()(PIR1bits.RCIF)	C:\MCC18\h\usart.h	279;"	d	line:279
+Delay100TCYx	C:\MCC18\h\delays.h	39;"	p	line:39	signature:(PARAM_SCLASS unsigned char)
+Delay10KTCYx	C:\MCC18\h\delays.h	53;"	p	line:53	signature:(PARAM_SCLASS unsigned char)
+Delay10TCY::Delay10TCYx(1)	C:\MCC18\h\delays.h	24;"	d	line:24
+Delay10TCYx	C:\MCC18\h\delays.h	32;"	p	line:32	signature:(PARAM_SCLASS unsigned char)
+Delay1KTCYx	C:\MCC18\h\delays.h	46;"	p	line:46	signature:(PARAM_SCLASS unsigned char)
+Delay1TCY::Nop	C:\MCC18\h\delays.h	19;"	d	line:19
+FRAME_ERROR	C:\MCC18\h\usart.h	168;"	m	line:168	struct:USART1::<anonymous>
+FRAME_ERROR	C:\MCC18\h\usart.h	229;"	m	line:229	struct:USART2::<anonymous>
+FRAME_ERROR	C:\MCC18\h\usart.h	272;"	m	line:272	struct:USART::<anonymous>
+MEM_MODEL::far	C:\MCC18\h\usart.h	59;"	d	line:59
+OVERRUN_ERROR	C:\MCC18\h\usart.h	169;"	m	line:169	struct:USART1::<anonymous>
+OVERRUN_ERROR	C:\MCC18\h\usart.h	230;"	m	line:230	struct:USART2::<anonymous>
+OVERRUN_ERROR	C:\MCC18\h\usart.h	273;"	m	line:273	struct:USART::<anonymous>
+Open1USART	C:\MCC18\h\usart.h	175;"	p	line:175	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS char spbrg)
+Open2USART	C:\MCC18\h\usart.h	235;"	p	line:235	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS char spbrg)
+OpenADC	C:\MCC18\h\adc.h	221;"	p	line:221	signature:(PARAM_SCLASS unsigned char config1, PARAM_SCLASS unsigned char config2, PARAM_SCLASS unsigned char portconfig)
+OpenADC	C:\MCC18\h\adc.h	227;"	p	line:227	signature:(PARAM_SCLASS unsigned char config1, PARAM_SCLASS unsigned char config2, PARAM_SCLASS unsigned int portconfig)
+OpenADC	C:\MCC18\h\adc.h	237;"	p	line:237	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS unsigned char config2)
+OpenUSART	C:\MCC18\h\usart.h	278;"	p	line:278	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS unsigned spbrg)
+PARAM_SCLASS::auto	C:\MCC18\h\adc.h	200;"	d	line:200
+PARAM_SCLASS::auto	C:\MCC18\h\delays.h	21;"	d	line:21
+PARAM_SCLASS::auto	C:\MCC18\h\usart.h	63;"	d	line:63
+RX_NINE	C:\MCC18\h\usart.h	166;"	m	line:166	struct:USART1::<anonymous>
+RX_NINE	C:\MCC18\h\usart.h	227;"	m	line:227	struct:USART2::<anonymous>
+RX_NINE	C:\MCC18\h\usart.h	270;"	m	line:270	struct:USART::<anonymous>
+Read1USART	C:\MCC18\h\usart.h	191;"	p	line:191	signature:(void)
+Read2USART	C:\MCC18\h\usart.h	237;"	p	line:237	signature:(void)
+ReadADC	C:\MCC18\h\adc.h	254;"	p	line:254	signature:(void)
+ReadUSART	C:\MCC18\h\usart.h	280;"	p	line:280	signature:(void)
+SetChanADC	C:\MCC18\h\adc.h	249;"	p	line:249	signature:(PARAM_SCLASS unsigned char channel)
+TX_NINE	C:\MCC18\h\usart.h	167;"	m	line:167	struct:USART1::<anonymous>
+TX_NINE	C:\MCC18\h\usart.h	228;"	m	line:228	struct:USART2::<anonymous>
+TX_NINE	C:\MCC18\h\usart.h	271;"	m	line:271	struct:USART::<anonymous>
+USART	C:\MCC18\h\usart.h	265;"	u	line:265
+USART1	C:\MCC18\h\usart.h	161;"	u	line:161
+USART2	C:\MCC18\h\usart.h	222;"	u	line:222
+USART_ASYNCH_MODE::0b11111110	C:\MCC18\h\usart.h	80;"	d	line:80
+USART_BRGH_HIGH::0b11111111	C:\MCC18\h\usart.h	71;"	d	line:71
+USART_BRGH_LOW::0b11101111	C:\MCC18\h\usart.h	72;"	d	line:72
+USART_CONT_RX::0b11111111	C:\MCC18\h\usart.h	73;"	d	line:73
+USART_EIGHT_BIT::0b11111101	C:\MCC18\h\usart.h	78;"	d	line:78
+USART_NINE_BIT::0b11111111	C:\MCC18\h\usart.h	77;"	d	line:77
+USART_RX_INT_OFF::0b10111111	C:\MCC18\h\usart.h	70;"	d	line:70
+USART_RX_INT_ON::0b11111111	C:\MCC18\h\usart.h	69;"	d	line:69
+USART_SINGLE_RX::0b11110111	C:\MCC18\h\usart.h	74;"	d	line:74
+USART_SYNCH_MODE::0b11111111	C:\MCC18\h\usart.h	79;"	d	line:79
+USART_SYNC_MASTER::0b11111111	C:\MCC18\h\usart.h	75;"	d	line:75
+USART_SYNC_SLAVE::0b11111011	C:\MCC18\h\usart.h	76;"	d	line:76
+USART_TX_INT_OFF::0b01111111	C:\MCC18\h\usart.h	68;"	d	line:68
+USART_TX_INT_ON::0b11111111	C:\MCC18\h\usart.h	67;"	d	line:67
+Write1USART	C:\MCC18\h\usart.h	192;"	p	line:192	signature:(PARAM_SCLASS char data)
+Write2USART	C:\MCC18\h\usart.h	238;"	p	line:238	signature:(PARAM_SCLASS char data)
+WriteUSART	C:\MCC18\h\usart.h	281;"	p	line:281	signature:(PARAM_SCLASS char data)
+__ADC_H	C:\MCC18\h\adc.h	2;"	d	line:2
+__DELAYS_H	C:\MCC18\h\delays.h	2;"	d	line:2
+__USART_H	C:\MCC18\h\usart.h	2;"	d	line:2
+baud1USART	C:\MCC18\h\usart.h	215;"	p	line:215	signature:(PARAM_SCLASS unsigned char baudconfig)
+baud2USART	C:\MCC18\h\usart.h	256;"	p	line:256	signature:(PARAM_SCLASS unsigned char baudconfig)
+baudUSART	C:\MCC18\h\usart.h	306;"	p	line:306	signature:(PARAM_SCLASS unsigned char baudconfig)
+br	C:\MCC18\h\adc.h	195;"	m	line:195	union:ADCResult
+data	C:\41x\laforge\wand\wand.c	21;"	v	line:21
+fill	C:\MCC18\h\usart.h	170;"	m	line:170	struct:USART1::<anonymous>
+fill	C:\MCC18\h\usart.h	231;"	m	line:231	struct:USART2::<anonymous>
+fill	C:\MCC18\h\usart.h	274;"	m	line:274	struct:USART::<anonymous>
+getc1USART::Read1USART	C:\MCC18\h\usart.h	196;"	d	line:196
+getc2USART::Read2USART	C:\MCC18\h\usart.h	242;"	d	line:242
+getcUSART::ReadUSART	C:\MCC18\h\usart.h	285;"	d	line:285
+gets1USART	C:\MCC18\h\usart.h	193;"	p	line:193	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
+gets2USART	C:\MCC18\h\usart.h	239;"	p	line:239	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
+getsUSART	C:\MCC18\h\usart.h	282;"	p	line:282	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
+init	C:\41x\laforge\wand\wand.c	128;"	f	line:128	signature:(void)
+init	C:\41x\laforge\wand\wand.c	19;"	p	line:19	file:	signature:(void)
+lr	C:\MCC18\h\adc.h	194;"	m	line:194	union:ADCResult
+main	C:\41x\laforge\wand\wand.c	20;"	p	line:20	file:	signature:(void)
+main	C:\41x\laforge\wand\wand.c	23;"	f	line:23	signature:(void)
+putc1USART::Write1USART	C:\MCC18\h\usart.h	197;"	d	line:197
+putc2USART::Write2USART	C:\MCC18\h\usart.h	243;"	d	line:243
+putcUSART::WriteUSART	C:\MCC18\h\usart.h	286;"	d	line:286
+putrs1USART	C:\MCC18\h\usart.h	195;"	p	line:195	signature:(PARAM_SCLASS const MEM_MODEL rom char *data)
+putrs2USART	C:\MCC18\h\usart.h	241;"	p	line:241	signature:(PARAM_SCLASS const MEM_MODEL rom char *data)
+putrsUSART	C:\MCC18\h\usart.h	284;"	p	line:284	signature:(PARAM_SCLASS const MEM_MODEL rom char *data)
+puts1USART	C:\MCC18\h\usart.h	194;"	p	line:194	signature:(PARAM_SCLASS char *data)
+puts2USART	C:\MCC18\h\usart.h	240;"	p	line:240	signature:(PARAM_SCLASS char *data)
+putsUSART	C:\MCC18\h\usart.h	283;"	p	line:283	signature:(PARAM_SCLASS char *data)
+val	C:\MCC18\h\usart.h	163;"	m	line:163	union:USART1
+val	C:\MCC18\h\usart.h	224;"	m	line:224	union:USART2
+val	C:\MCC18\h\usart.h	267;"	m	line:267	union:USART
