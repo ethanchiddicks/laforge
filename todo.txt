@@ -1,0 +1,15 @@
+= Sound on/off switch
+- Range selection switch
+= Hardware reset switch
+
+- More environment distance range data
+- Sensorless testing of distance perception capabilities (via control program)
+
+= Smoother directional sound generation (15 degrees is too jerky)
+	- More HRIRs
+	or:
+	- HRIR interpolation via two simultaneous filters and proportional attenuation
+
+- Gyro centre reset algorithm
+- Separate distance ranges
+- Try adding parallax
