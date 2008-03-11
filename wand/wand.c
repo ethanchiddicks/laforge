@@ -18,7 +18,7 @@
 
 void init (void);
 void main (void);
-int data[4];
+int data[5];
 
 void main (void)
 {
@@ -93,6 +93,7 @@ data[3] = data[3] & 0x1F;
 data[3] = data[3] | 0xE0;
 data[2] = data[2] | 0xE0;
 
+data[5] = PORTC | 0xE0;
 
 while(BusyUSART());
 putcUSART(data[0]);
@@ -105,6 +106,13 @@ while(BusyUSART());
 putcUSART(data[2]);
 while(BusyUSART());
 putcUSART(data[3]);
+while(BusyUSART());
+putcUSART(13);
+
+while(BusyUSART());
+putcUSART(255);
+while(BusyUSART());
+putcUSART(data[5]);
 while(BusyUSART());
 putcUSART(13);
 while(BusyUSART());
@@ -132,8 +140,7 @@ TRISA=0xFF;
 TRISB = 0b00001000;
 PORTB = 0b00000000;
 
-TRISC=0x00;
-LATC=0xFF;
-PORTC=0xFF;
+TRISC=0x01;
+
 
 }

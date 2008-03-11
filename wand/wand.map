@@ -1,34 +1,34 @@
 MPLINK 4.11, Linker
-Linker Map File - Created Mon Mar 10 15:31:42 2008
+Linker Map File - Created Tue Mar 11 13:54:43 2008
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
                 ---------  ---------  ---------  ---------  ---------
                _entry_scn       code   0x000000    program   0x000006
                    .cinit    romdata   0x00002a    program   0x000002
-             .code_wand.o       code   0x00002c    program   0x0001e0
-               _cinit_scn       code   0x00020c    program   0x00009e
-            .code_uopen.o       code   0x0002aa    program   0x000074
-          .code_adcopen.o       code   0x00031e    program   0x000068
-             D10KTCYXCODE       code   0x000386    program   0x00002e
-           .code_uwrite.o       code   0x0003b4    program   0x00002e
-         .code_adcsetch.o       code   0x0003e2    program   0x00002e
-              D1KTCYXCODE       code   0x000410    program   0x000020
-             _startup_scn       code   0x000430    program   0x00001c
-              D10TCYXCODE       code   0x00044c    program   0x000016
-          .code_adcbusy.o       code   0x000462    program   0x00000a
-         .code_adcclose.o       code   0x00046c    program   0x000006
-          .code_adcconv.o       code   0x000472    program   0x000004
-           .code___init.o       code   0x000476    program   0x000002
+             .code_wand.o       code   0x00002c    program   0x00020e
+               _cinit_scn       code   0x00023a    program   0x00009e
+            .code_uopen.o       code   0x0002d8    program   0x000074
+          .code_adcopen.o       code   0x00034c    program   0x000068
+             D10KTCYXCODE       code   0x0003b4    program   0x00002e
+           .code_uwrite.o       code   0x0003e2    program   0x00002e
+         .code_adcsetch.o       code   0x000410    program   0x00002e
+              D1KTCYXCODE       code   0x00043e    program   0x000020
+             _startup_scn       code   0x00045e    program   0x00001c
+              D10TCYXCODE       code   0x00047a    program   0x000016
+          .code_adcbusy.o       code   0x000490    program   0x00000a
+         .code_adcclose.o       code   0x00049a    program   0x000006
+          .code_adcconv.o       code   0x0004a0    program   0x000004
+           .code___init.o       code   0x0004a4    program   0x000002
     .config_300001_wand.o    romdata   0x300001    program   0x000001
     .config_300006_wand.o    romdata   0x300006    program   0x000001
                 MATH_DATA      udata   0x000000       data   0x000002
                  .tmpdata      udata   0x000002       data   0x000002
                 DELAYDAT2      udata   0x000004       data   0x000001
                 DELAYDAT1      udata   0x000005       data   0x000001
-           .udata_c018i.o      udata   0x000060       data   0x00000a
-            .udata_wand.o      udata   0x00006a       data   0x000008
-          .udata_usartd.o      udata   0x000072       data   0x000001
+            .udata_wand.o      udata   0x000060       data   0x00000a
+           .udata_c018i.o      udata   0x00006a       data   0x00000a
+          .udata_usartd.o      udata   0x000074       data   0x000001
                    .stack      udata   0x000200       data   0x000100
               SFR_BANKED0      udata   0x000d60       data   0x00000c
               SFR_BANKED1      udata   0x000d70       data   0x00000c
@@ -52,57 +52,57 @@ Linker Map File - Created Mon Mar 10 15:31:42 2008
                                Start         End      
                            ---------   ---------      
                             0x000000    0x000005      
-                            0x00002a    0x000477      
+                            0x00002a    0x0004a5      
                             0x300001    0x300001      
                             0x300006    0x300006      
-            1110 out of 16664 program addresses used, program memory utilization is 6%
+            1156 out of 16664 program addresses used, program memory utilization is 6%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                  BusyADC   0x000462    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcbusy.c
-                 CloseADC   0x00046c    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcclose.c
-               ConvertADC   0x000472    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcconv.c
-                   D10K_1   0x000392    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-                    D10Kl   0x00039e    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-                    D10Kx   0x000390    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-                    D10_1   0x00045c    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-                     D10x   0x000454    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-                    D1K_1   0x00041c    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-                     D1Kx   0x00041a    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-             Delay10KTCYx   0x000386    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-              Delay10TCYx   0x00044c    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-              Delay1KTCYx   0x000410    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-                  OpenADC   0x00031e    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcopen.c
-                OpenUSART   0x0002aa    program     extern C:\MCC18\src\TRADIT~1\pmc\USART\uopen.c
-               SetChanADC   0x0003e2    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcsetch.c
-               WriteUSART   0x0003b4    program     extern C:\MCC18\src\TRADIT~1\pmc\USART\uwrite.c
-       _D10KTCYXCODE_0010   0x000396    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x0003a2    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-        _D10TCYXCODE_000A   0x000456    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-        _D10TCYXCODE_000C   0x000458    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-        _D10TCYXCODE_000E   0x00045a    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-        _D1KTCYXCODE_0010   0x000420    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x000426    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+                  BusyADC   0x000490    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcbusy.c
+                 CloseADC   0x00049a    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcclose.c
+               ConvertADC   0x0004a0    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcconv.c
+                   D10K_1   0x0003c0    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+                    D10Kl   0x0003cc    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+                    D10Kx   0x0003be    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+                    D10_1   0x00048a    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+                     D10x   0x000482    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+                    D1K_1   0x00044a    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+                     D1Kx   0x000448    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+             Delay10KTCYx   0x0003b4    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+              Delay10TCYx   0x00047a    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+              Delay1KTCYx   0x00043e    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+                  OpenADC   0x00034c    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcopen.c
+                OpenUSART   0x0002d8    program     extern C:\MCC18\src\TRADIT~1\pmc\USART\uopen.c
+               SetChanADC   0x000410    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcsetch.c
+               WriteUSART   0x0003e2    program     extern C:\MCC18\src\TRADIT~1\pmc\USART\uwrite.c
+       _D10KTCYXCODE_0010   0x0003c4    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x0003d0    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+        _D10TCYXCODE_000A   0x000484    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+        _D10TCYXCODE_000C   0x000486    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+        _D10TCYXCODE_000E   0x000488    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+        _D1KTCYXCODE_0010   0x00044e    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x000454    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00001   0x00044a    program     static                          
-       ___return_lbl00002   0x0002a8    program     static                          
+       ___return_lbl00001   0x000478    program     static                          
+       ___return_lbl00002   0x0002d6    program     static                          
                __config_0   0x300001    program     static C:\41x\laforge\wand\wand.c
                __config_1   0x300006    program     static C:\41x\laforge\wand\wand.c
-                   __init   0x000476    program     extern C:\MCC18\src\TRADIT~1\stdclib\__init.c
-                _do_cinit   0x00020c    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   __init   0x0004a4    program     extern C:\MCC18\src\TRADIT~1\stdclib\__init.c
+                _do_cinit   0x00023a    program     extern C:\MCC18\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                 _startup   0x000430    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                copy_loop   0x00027e    program     static                          
-            copy_one_byte   0x000284    program     static                          
-                     done   0x0002a8    program     static                          
-             done_copying   0x000292    program     static                          
-                     init   0x0001fa    program     extern C:\41x\laforge\wand\wand.c
-                     loop   0x000440    program     static                          
+                 _startup   0x00045e    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                copy_loop   0x0002ac    program     static                          
+            copy_one_byte   0x0002b2    program     static                          
+                     done   0x0002d6    program     static                          
+             done_copying   0x0002c0    program     static                          
+                     init   0x00022a    program     extern C:\41x\laforge\wand\wand.c
+                     loop   0x00046e    program     static                          
                      main   0x00002c    program     extern C:\41x\laforge\wand\wand.c
-                     test   0x000226    program     static                          
+                     test   0x000254    program     static                          
                    ADCON0   0x000fc2       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
                ADCON0bits   0x000fc2       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
                    ADCON1   0x000fc1       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
@@ -812,7 +812,7 @@ Linker Map File - Created Mon Mar 10 15:31:42 2008
                     TXREG   0x000fad       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
                     TXSTA   0x000fac       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
                 TXSTAbits   0x000fac       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
-             USART_Status   0x000072       data     extern C:\MCC18\src\TRADIT~1\pmc\USART\usartd.c
+             USART_Status   0x000074       data     extern C:\MCC18\src\TRADIT~1\pmc\USART\usartd.c
                    WDTCON   0x000fd1       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
                WDTCONbits   0x000fd1       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
                      WREG   0x000fe8       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
@@ -821,11 +821,11 @@ Linker Map File - Created Mon Mar 10 15:31:42 2008
                   __tmp_0   0x000002       data     static C:\41x\laforge\wand\wand.c
                   __tmp_0   0x000002       data     static C:\MCC18\src\TRADIT~1\pmc\USART\uopen.c
                   __tmp_0   0x000002       data     static C:\MCC18\src\TRADIT~1\pmc\ADC\adcsetch.c
-                curr_byte   0x000063       data     static C:\MCC18\src\traditional\startup\c018i.c
-               curr_entry   0x000065       data     static C:\MCC18\src\traditional\startup\c018i.c
-                     data   0x00006a       data     extern C:\41x\laforge\wand\wand.c
-                 data_ptr   0x000067       data     static C:\MCC18\src\traditional\startup\c018i.c
-                     prom   0x000060       data     static C:\MCC18\src\traditional\startup\c018i.c
+                curr_byte   0x00006d       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x00006f       data     static C:\MCC18\src\traditional\startup\c018i.c
+                     data   0x000060       data     extern C:\41x\laforge\wand\wand.c
+                 data_ptr   0x000071       data     static C:\MCC18\src\traditional\startup\c018i.c
+                     prom   0x00006a       data     static C:\MCC18\src\traditional\startup\c018i.c
 
 
 
@@ -835,42 +835,42 @@ Linker Map File - Created Mon Mar 10 15:31:42 2008
                    _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
                      main   0x00002c    program     extern C:\41x\laforge\wand\wand.c
-                     init   0x0001fa    program     extern C:\41x\laforge\wand\wand.c
-                _do_cinit   0x00020c    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                     test   0x000226    program     static                          
-                copy_loop   0x00027e    program     static                          
-            copy_one_byte   0x000284    program     static                          
-             done_copying   0x000292    program     static                          
-       ___return_lbl00002   0x0002a8    program     static                          
-                     done   0x0002a8    program     static                          
-                OpenUSART   0x0002aa    program     extern C:\MCC18\src\TRADIT~1\pmc\USART\uopen.c
-                  OpenADC   0x00031e    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcopen.c
-             Delay10KTCYx   0x000386    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-                    D10Kx   0x000390    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-                   D10K_1   0x000392    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x000396    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-                    D10Kl   0x00039e    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x0003a2    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
-               WriteUSART   0x0003b4    program     extern C:\MCC18\src\TRADIT~1\pmc\USART\uwrite.c
-               SetChanADC   0x0003e2    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcsetch.c
-              Delay1KTCYx   0x000410    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-                     D1Kx   0x00041a    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-                    D1K_1   0x00041c    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-        _D1KTCYXCODE_0010   0x000420    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x000426    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
-                 _startup   0x000430    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                     loop   0x000440    program     static                          
-       ___return_lbl00001   0x00044a    program     static                          
-              Delay10TCYx   0x00044c    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-                     D10x   0x000454    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-        _D10TCYXCODE_000A   0x000456    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-        _D10TCYXCODE_000C   0x000458    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-        _D10TCYXCODE_000E   0x00045a    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-                    D10_1   0x00045c    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
-                  BusyADC   0x000462    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcbusy.c
-                 CloseADC   0x00046c    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcclose.c
-               ConvertADC   0x000472    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcconv.c
-                   __init   0x000476    program     extern C:\MCC18\src\TRADIT~1\stdclib\__init.c
+                     init   0x00022a    program     extern C:\41x\laforge\wand\wand.c
+                _do_cinit   0x00023a    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     test   0x000254    program     static                          
+                copy_loop   0x0002ac    program     static                          
+            copy_one_byte   0x0002b2    program     static                          
+             done_copying   0x0002c0    program     static                          
+       ___return_lbl00002   0x0002d6    program     static                          
+                     done   0x0002d6    program     static                          
+                OpenUSART   0x0002d8    program     extern C:\MCC18\src\TRADIT~1\pmc\USART\uopen.c
+                  OpenADC   0x00034c    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcopen.c
+             Delay10KTCYx   0x0003b4    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+                    D10Kx   0x0003be    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+                   D10K_1   0x0003c0    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x0003c4    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+                    D10Kl   0x0003cc    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x0003d0    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10ktcyx.asm
+               WriteUSART   0x0003e2    program     extern C:\MCC18\src\TRADIT~1\pmc\USART\uwrite.c
+               SetChanADC   0x000410    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcsetch.c
+              Delay1KTCYx   0x00043e    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+                     D1Kx   0x000448    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+                    D1K_1   0x00044a    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+        _D1KTCYXCODE_0010   0x00044e    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x000454    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d1ktcyx.asm
+                 _startup   0x00045e    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x00046e    program     static                          
+       ___return_lbl00001   0x000478    program     static                          
+              Delay10TCYx   0x00047a    program     extern C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+                     D10x   0x000482    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+        _D10TCYXCODE_000A   0x000484    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+        _D10TCYXCODE_000C   0x000486    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+        _D10TCYXCODE_000E   0x000488    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+                    D10_1   0x00048a    program     static C:\MCC18\SRC\TRADIT~1\DELAYS\d10tcyx.asm
+                  BusyADC   0x000490    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcbusy.c
+                 CloseADC   0x00049a    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcclose.c
+               ConvertADC   0x0004a0    program     extern C:\MCC18\src\TRADIT~1\pmc\ADC\adcconv.c
+                   __init   0x0004a4    program     extern C:\MCC18\src\TRADIT~1\stdclib\__init.c
                __config_0   0x300001    program     static C:\41x\laforge\wand\wand.c
                __config_1   0x300006    program     static C:\41x\laforge\wand\wand.c
                      SIGN   0x000000       data     extern C:\MCC18\SRC\TRADIT~1\MATH\cmath18.asm
@@ -881,12 +881,12 @@ Linker Map File - Created Mon Mar 10 15:31:42 2008
                   __tmp_0   0x000002       data     static C:\41x\laforge\wand\wand.c
             DelayCounter2   0x000004       data     extern C:\MCC18\SRC\TRADIT~1\DELAYS\delayd2.asm
             DelayCounter1   0x000005       data     extern C:\MCC18\SRC\TRADIT~1\DELAYS\delayd1.asm
-                     prom   0x000060       data     static C:\MCC18\src\traditional\startup\c018i.c
-                curr_byte   0x000063       data     static C:\MCC18\src\traditional\startup\c018i.c
-               curr_entry   0x000065       data     static C:\MCC18\src\traditional\startup\c018i.c
-                 data_ptr   0x000067       data     static C:\MCC18\src\traditional\startup\c018i.c
-                     data   0x00006a       data     extern C:\41x\laforge\wand\wand.c
-             USART_Status   0x000072       data     extern C:\MCC18\src\TRADIT~1\pmc\USART\usartd.c
+                     data   0x000060       data     extern C:\41x\laforge\wand\wand.c
+                     prom   0x00006a       data     static C:\MCC18\src\traditional\startup\c018i.c
+                curr_byte   0x00006d       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x00006f       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 data_ptr   0x000071       data     static C:\MCC18\src\traditional\startup\c018i.c
+             USART_Status   0x000074       data     extern C:\MCC18\src\TRADIT~1\pmc\USART\usartd.c
                  RXF6SIDH   0x000d60       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
              RXF6SIDHbits   0x000d60       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm
                  RXF6SIDL   0x000d61       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f2480.asm

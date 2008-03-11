@@ -206,7 +206,7 @@ getcUSART::ReadUSART	C:\MCC18\h\usart.h	285;"	d	line:285
 gets1USART	C:\MCC18\h\usart.h	193;"	p	line:193	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
 gets2USART	C:\MCC18\h\usart.h	239;"	p	line:239	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
 getsUSART	C:\MCC18\h\usart.h	282;"	p	line:282	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
-init	C:\41x\laforge\wand\wand.c	128;"	f	line:128	signature:(void)
+init	C:\41x\laforge\wand\wand.c	136;"	f	line:136	signature:(void)
 init	C:\41x\laforge\wand\wand.c	19;"	p	line:19	file:	signature:(void)
 lr	C:\MCC18\h\adc.h	194;"	m	line:194	union:ADCResult
 main	C:\41x\laforge\wand\wand.c	20;"	p	line:20	file:	signature:(void)
